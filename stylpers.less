@@ -1,0 +1,575 @@
+﻿@font-xs-size: 9pt;
+@font-sm-size: 12pt;
+@font-md-size: 15pt;
+@font-lg-size: 18pt;
+@font-xlg-size: 22pt;
+@font-xxlg-size: 28pt;
+
+/*#region margin-less*/
+@margin-xs: 2px;
+@margin-sm: 5px;
+@margin-md: 8px;
+@margin-lg: 11px;
+@margin-xlg: 15px;
+@margin-xxlg: 20px;
+
+@margin-aside-xs: 2px;
+@margin-aside-sm: 5px;
+@margin-aside-md: 8px;
+@margin-aside-lg: 11px;
+@margin-aside-xlg: 15px;
+@margin-aside-xxlg: 20px;
+
+@margin-topbtm-xs: 2px;
+@margin-topbtm-sm: 5px;
+@margin-topbtm-md: 8px;
+@margin-topbtm-lg: 11px;
+@margin-topbtm-xlg: 15px;
+@margin-topbtm-xxlg: 20px;
+/*#endregion margin-less*/
+
+/*#region padding-less*/
+@padding-xs: 2px;
+@padding-sm: 5px;
+@padding-md: 8px;
+@padding-lg: 11px;
+@padding-xlg: 15px;
+@padding-xxlg: 20px;
+
+@padding-aside-xs: 2px;
+@padding-aside-sm: 5px;
+@padding-aside-md: 8px;
+@padding-aside-lg: 11px;
+@padding-aside-xlg: 15px;
+@padding-aside-xxlg: 20px;
+
+@padding-topbtm-xs: 2px;
+@padding-topbtm-sm: 5px;
+@padding-topbtm-md: 8px;
+@padding-topbtm-lg: 11px;
+@padding-topbtm-xlg: 15px;
+@padding-topbtm-xxlg: 20px;
+/*#endregion padding-less*/
+
+/*#region border-less*/
+@border-xxs-size: 1px;
+@border-xs-size: 2px;
+@border-sm-size: 4px;
+@border-md-size: 7px;
+@border-lg-size: 10px;
+@border-xlg-size: 15px;
+@border-xxlg-size: 20px;
+
+@border-radius-xs-size: 5px;
+@border-radius-sm-size: 8px;
+@border-radius-md-size: 11px;
+@border-radius-lg-size: 15px;
+@border-radius-xlg-size: 20px;
+@border-radius-xxlg-size: 25px;
+
+@border-topbtm-xxs-size: 1px;
+@border-topbtm-xs-size: 2px;
+@border-topbtm-sm-size: 4px;
+@border-topbtm-md-size: 7px;
+@border-topbtm-lg-size: 10px;
+@border-topbtm-xlg-size: 15px;
+@border-topbtm-xxlg-size: 20px;
+
+@border-aside-xxs-size: 1px;
+@border-aside-xs-size: 2px;
+@border-aside-sm-size: 4px;
+@border-aside-md-size: 7px;
+@border-aside-lg-size: 10px;
+@border-aside-xlg-size: 15px;
+@border-aside-xxlg-size: 20px;
+/*#endregion border-less*/
+
+/*#region other*/
+@transition-time: 0.85s;
+/*#endregion other*/
+
+/*===============CSS=================*/
+
+/*#region font*/
+.font-xs{
+    font-size: @font-xs-size !important;
+}
+
+.font-sm{
+    font-size: @font-sm-size !important;
+}
+
+.font-md{
+    font-size: @font-md-size !important;
+}
+
+.font-lg{
+    font-size: @font-lg-size !important;
+}
+
+.font-xlg{
+    font-size: @font-xlg-size !important;
+}
+
+.font-xxlg{
+    font-size: @font-xxlg-size !important;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.boldx2{
+    font-weight: bolder;
+}
+
+.underlined{
+    text-decoration:underline;
+}
+/*#endregion font*/
+
+/*#region margin*/
+.marg-auto{
+    margin: auto;
+}
+
+.marg-none{
+    margin: 0 !important;
+}
+
+.marg-xs{
+    margin: @margin-xs;
+}
+
+.marg-sm{
+    margin: @margin-sm;
+}
+
+.marg-md{
+    margin: @margin-md;
+}
+
+.marg-lg{
+    margin: @margin-lg;
+}
+
+.marg-xlg{
+    margin: @margin-xlg;
+}
+
+.marg-xxlg{
+    margin: @margin-xxlg;
+}
+/*#endregion margin*/
+
+/*#region margin-aside*/
+.marg-aside-none{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.marg-aside-xs{
+    margin-left: @margin-aside-xs;
+    margin-right: @margin-aside-xs;
+}
+
+.marg-aside-sm{
+    margin-left: @margin-aside-sm;
+    margin-right: @margin-aside-sm;
+}
+
+.marg-aside-md{
+    margin-left: @margin-aside-md;
+    margin-right: @margin-aside-md;
+}
+
+.marg-aside-lg{
+    margin-left: @margin-aside-lg;
+    margin-right: @margin-aside-lg;
+}
+
+.marg-aside-xlg{
+    margin-left: @margin-aside-xlg;
+    margin-right: @margin-aside-xlg;
+}
+
+.marg-aside-xxlg{
+    margin-left: @margin-aside-xxlg;
+    margin-right: @margin-aside-xxlg;
+}
+/*#endregion margin-aside*/
+
+/*#region margin-topbottom*/
+.marg-topbtm-none{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.marg-topbtm-xs{
+    margin-top: @margin-topbtm-xs;
+    margin-bottom: @margin-topbtm-xs;
+}
+
+.marg-topbtm-sm{
+    margin-top: @margin-topbtm-sm;
+    margin-bottom: @margin-topbtm-sm;
+}
+
+.marg-topbtm-md{
+    margin-top: @margin-topbtm-md;
+    margin-bottom: @margin-topbtm-md;
+}
+
+.marg-topbtm-lg{
+    margin-top: @margin-topbtm-lg;
+    margin-bottom: @margin-topbtm-lg;
+}
+
+.marg-topbtm-xlg{
+    margin-top: @margin-topbtm-xlg;
+    margin-bottom: @margin-topbtm-xlg;
+}
+
+.marg-topbtm-xxlg{
+    margin-top: @margin-topbtm-xxlg;
+    margin-bottom: @margin-topbtm-xxlg;
+}
+
+/*#endregion margin-topbottom*/
+
+/*#region padding*/
+.pad-none{
+    padding: 0 !important;
+}
+
+.pad-xs{
+    padding: @padding-xs;
+}
+
+.pad-sm{
+    padding: @padding-sm;
+}
+
+.pad-md{
+    padding: @padding-md;
+}
+
+.pad-lg{
+    padding: @padding-lg;
+}
+
+.pad-xlg{
+    padding: @padding-xlg;
+}
+
+.pad-xxlg{
+    padding: @padding-xxlg;
+}
+/*#endregion padding*/
+
+/*#region padding-aside*/
+.pad-aside-none{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pad-aside-xs{
+    padding-left: @padding-aside-xs;
+    padding-right: @padding-aside-xs;
+}
+
+.pad-aside-sm{
+    padding-left: @padding-aside-sm;
+    padding-right: @padding-aside-sm;
+}
+
+.pad-aside-md{
+    padding-left: @padding-aside-md;
+    padding-right: @padding-aside-md;
+}
+
+.pad-aside-lg{
+    padding-left: @padding-aside-lg;
+    padding-right: @padding-aside-lg;
+}
+
+.pad-aside-xlg{
+    padding-left: @padding-aside-xlg;
+    padding-right: @padding-aside-xlg;
+}
+
+.pad-aside-xxlg{
+    padding-left: @padding-aside-xxlg;
+    padding-right: @padding-aside-xxlg;
+}
+/*#endregion padding-aside*/
+
+/*#region padding-topbottom*/
+.pad-topbtm-none{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.pad-topbtm-xs{
+    padding-top: @padding-topbtm-xs;
+    padding-bottom: @padding-topbtm-xs;
+}
+
+.pad-topbtm-sm{
+    padding-top: @padding-topbtm-sm;
+    padding-right: @padding-topbtm-sm;
+}
+
+.pad-topbtm-md{
+    padding-top: @padding-topbtm-md;
+    padding-bottom: @padding-topbtm-md;
+}
+
+.pad-topbtm-lg{
+    padding-top: @padding-topbtm-lg;
+    padding-bottom: @padding-topbtm-lg;
+}
+
+.pad-topbtm-xlg{
+    padding-top: @padding-topbtm-xlg;
+    padding-bottom: @padding-topbtm-xlg;
+}
+
+.pad-topbtm-xxlg{
+    padding-top: @padding-topbtm-xxlg;
+    padding-bottom: @padding-topbtm-xxlg;
+}
+
+/*#endregion padding-topbottom*/
+
+/*#region border*/
+.brd-xxs{
+    border-width: @border-xxs-size !important;
+}
+
+.brd-xs{
+    border-width: @border-xs-size !important;
+}
+
+.brd-sm{
+    border-width: @border-sm-size !important;
+}
+
+.brd-md{
+    border-width: @border-md-size !important;
+}
+
+.brd-lg{
+    border-width: @border-lg-size !important;
+}
+
+.brd-xlg{
+    border-width: @border-xlg-size !important;
+}
+
+.brd-xxlg{
+    border-width: @border-xxlg-size !important;
+}
+/*#endregion border*/
+
+/*#region border-radius*/
+.brd-rad-xs{
+    border-width: @border-radius-xs-size !important;
+}
+
+.brd-rad-sm{
+    border-width: @border-radius-sm-size !important;
+}
+
+.brd-rad-md{
+    border-width: @border-radius-md-size !important;
+}
+
+.brd-rad-lg{
+    border-width: @border-radius-lg-size !important;
+}
+
+.brd-rad-xlg{
+    border-width: @border-radius-xlg-size !important;
+}
+
+.brd-rad-xxlg{
+    border-width: @border-radius-xxlg-size !important;
+}
+/*#endregion border-radius*/
+
+/*#region border-topbtm*/
+.brd-topbtm-xxs{
+    border-top: @border-topbtm-xxs-size;
+    border-bottom: @border-topbtm-xxs-size;
+}
+
+.brd-topbtm-xs{
+    border-top: @border-topbtm-xs-size;
+    border-bottom: @border-topbtm-xs-size;
+}
+
+.brd-topbtm-sm{
+    border-top: @border-topbtm-sm-size;
+    border-bottom: @border-topbtm-sm-size;
+}
+
+.brd-topbtm-md{
+    border-top: @border-topbtm-md-size;
+    border-bottom: @border-topbtm-md-size;
+}
+
+.brd-topbtm-lg{
+    border-top: @border-topbtm-lg-size;
+    border-bottom: @border-topbtm-lg-size;
+}
+
+.brd-topbtm-xlg{
+    border-top: @border-topbtm-xlg-size;
+    border-bottom: @border-topbtm-xlg-size;
+}
+
+.brd-topbtm-xxlg{
+    border-top: @border-topbtm-xxlg-size;
+    border-bottom: @border-topbtm-xxlg-size;
+}
+/*#endregion*/
+
+/*#region border-aside*/
+.brd-aside-xxs{
+    border-top: @border-aside-xxs-size;
+    border-bottom: @border-aside-xxs-size;
+}
+
+.brd-aside-xs{
+    border-top: @border-aside-xs-size;
+    border-bottom: @border-aside-xs-size;
+}
+
+.brd-aside-sm{
+    border-top: @border-aside-sm-size;
+    border-bottom: @border-aside-sm-size;
+}
+
+.brd-aside-md{
+    border-top: @border-aside-md-size;
+    border-bottom: @border-aside-md-size;
+}
+
+.brd-aside-lg{
+    border-top: @border-aside-lg-size;
+    border-bottom: @border-aside-lg-size;
+}
+
+.brd-aside-xlg{
+    border-top: @border-aside-xlg-size;
+    border-bottom: @border-aside-xlg-size;
+}
+
+.brd-aside-xxlg{
+    border-top: @border-aside-xxlg-size;
+    border-bottom: @border-aside-xxlg-size;
+}
+
+/*#endregion border-aside*/
+
+/*#region positioning*/
+.textcenter{
+    text-align: center;
+}
+
+.display-blk{
+    display: block;
+}
+
+.display-inline-blk{
+    display: inline-block;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+/*#endregion positioning*/
+
+/*#region other*/
+.wrapword {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+}
+
+.transit {
+    -moz-transition: all @transition-time;
+    -o-transition: all @transition-time;
+    -webkit-transition: all @transition-time;
+    transition: all @transition-time;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.overflow{
+    overflow: auto;
+}
+
+.overflow-y{
+    overflow-y:auto;
+}
+
+.overflow-x{
+    overflow-x: auto;
+}
+/*#endregion other*/
+
+/*#region sizing*/
+
+.width-5{
+    width: 20%;
+}
+
+.width-4{
+    width: 25%;
+}
+
+.width-3{
+    width: 33.33%;
+}
+
+.width-2{
+    width: 50%;
+}
+
+.width-1{
+    width: 99.97%;
+}
+
+.scale-half {
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+}
+
+.scale-x2 {
+    -moz-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+}
+/*#endregion sizing*/
